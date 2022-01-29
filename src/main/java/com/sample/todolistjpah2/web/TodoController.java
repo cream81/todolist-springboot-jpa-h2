@@ -1,4 +1,4 @@
-package com.sample.todolist.web;
+package com.sample.todolistjpah2.web;
 
 import javax.validation.Valid;
 
@@ -9,8 +9,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.sample.todolist.model.dto.Todo;
-import com.sample.todolist.repository.TodoRepository;
+import com.sample.todolistjpah2.model.dto.Todo;
+import com.sample.todolistjpah2.repository.TodoRepository;
 
 @Controller
 public class TodoController {

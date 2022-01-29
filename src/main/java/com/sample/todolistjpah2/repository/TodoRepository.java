@@ -1,8 +1,8 @@
-package com.sample.todolist.repository;
+package com.sample.todolistjpah2.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.sample.todolist.model.dto.Todo;
+import com.sample.todolistjpah2.model.dto.Todo;
 
 public interface TodoRepository extends CrudRepository<Todo, Long> {
 }

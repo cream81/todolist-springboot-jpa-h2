@@ -1,4 +1,4 @@
-package com.sample.todolist.model.dto;
+package com.sample.todolistjpah2.model.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

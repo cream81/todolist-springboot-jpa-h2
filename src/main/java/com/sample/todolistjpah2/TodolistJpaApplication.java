@@ -1,12 +1,12 @@
-package com.sample.todolist;
+package com.sample.todolistjpah2;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.sample.todolist.model.dto.User;
-import com.sample.todolist.repository.UserRepository;
+import com.sample.todolistjpah2.model.dto.User;
+import com.sample.todolistjpah2.repository.UserRepository;
 
 @SpringBootApplication
 public class TodolistJpaApplication {

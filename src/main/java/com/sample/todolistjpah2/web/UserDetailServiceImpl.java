@@ -1,4 +1,4 @@
-package com.sample.todolist.web;
+package com.sample.todolistjpah2.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.sample.todolist.model.dto.User;
-import com.sample.todolist.repository.UserRepository;
+import com.sample.todolistjpah2.model.dto.User;
+import com.sample.todolistjpah2.repository.UserRepository;
 
 /**
  * This class is used by spring security to authenticate and authorize user
